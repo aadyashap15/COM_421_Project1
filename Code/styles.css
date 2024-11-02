@@ -114,3 +114,54 @@ figure figcaption {
     margin-top: 5px; /* Adds some spacing between the image and caption */
     color: #333; /* Optional: Set a color for the caption */
 }
+
+/* Sidebar styling */
+aside {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+    margin: 10px 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c81212;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    opacity: 0.5; /* Partially visible initially */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.back-to-top:hover {
+    opacity: 1; /* Fully visible on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Default link style */
+nav ul li a {
+    color: white; /* Default color for nav links */
+    text-decoration: none;
+}
+
+/* Highlight for each page */
+body#home nav ul li a[href="index.html"],
+body#research nav ul li a[href="research.html"],
+body#data nav ul li a[href="data.html"],
+body#topic nav ul li a[href="topic.html"],
+body#references nav ul li a[href="references.html"],
+body#style nav ul li a[href="style.html"],
+body#layout nav ul li a[href="layout.html"],
+body#modality nav ul li a[href="modality.html"],
+body#professionalization nav ul li a[href="professionalization.html"] {
+    color: #FFD700; /* Highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #FFD700; /* Optional underline */
+}
