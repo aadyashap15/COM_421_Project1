@@ -74,3 +74,43 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+/* Content Area Links and Hover Effect */
+.content-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.clickable-section {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    list-style-type: disc; /* Ensures the main bullet is displayed correctly */
+}
+
+.clickable-section:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+    cursor: pointer;
+}
+
+/* Adjust sublist indentation */
+ul ul {
+    margin-left: 20px; /* Adjust indentation for nested lists */
+}
+
+/* Styling for images within figures */
+figure img {
+    max-width: 55%; /* Adjust this value as needed to control the image size */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center-align the image */
+}
+
+/* Styling for captions */
+figure figcaption {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px; /* Adds some spacing between the image and caption */
+    color: #333; /* Optional: Set a color for the caption */
+}
