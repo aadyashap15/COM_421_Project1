@@ -128,10 +128,13 @@ aside {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #c81212;
+    background-color: #090000;
     color: white;
     font-size: 24px;
     text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     padding: 10px;
     border-radius: 50%;
     text-decoration: none;
@@ -160,7 +163,8 @@ body#references nav ul li a[href="references.html"],
 body#style nav ul li a[href="style.html"],
 body#layout nav ul li a[href="layout.html"],
 body#modality nav ul li a[href="modality.html"],
-body#professionalization nav ul li a[href="professionalization.html"] {
+body#professionalization nav ul li a[href="professionalization.html"],
+body#template nav ul li a[href="template.html"] {
     color: #FFD700; /* Highlight color */
     font-weight: bold;
     border-bottom: 2px solid #FFD700; /* Optional underline */
